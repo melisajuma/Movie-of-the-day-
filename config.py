@@ -1,11 +1,11 @@
 import os
-
+class Config:
     '''
     General configuration parent class
     '''
     MOVIE_API_BASE_URL ='https://api.themoviedb.org/3/movie/{}?api_key={}'
     API_KEY= os.environ.get('API_KEY')
-    SECRET_KEY= 'sirikali'
+    SECRET_KEY= 'happy'
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:postgres@localhost/movie'
     #  email configurations
     MAIL_SERVER = 'smtp.gmail.com'
