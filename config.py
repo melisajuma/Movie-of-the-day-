@@ -12,7 +12,7 @@ class Config:
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USERNAME = "Melisaakinyi95@gmail.com"
-    MAIL_PASSWORD = ""
+    MAIL_PASSWORD = "LegibraSQ4"
 
     pass
 
