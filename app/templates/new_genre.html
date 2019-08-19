@@ -1,0 +1,16 @@
+{% extends 'bootstrap/base.html'%}
+{% import 'bootstrap/wtf.html' as wtf%}
+
+{% block content %}
+<div class="container">
+<div class="row">
+<div class="col-md-10">
+    <br><br><br><br></div><br><br><br><br><br><br><div class="w3-center"><h4 style="text-align:center"> <em>Movie of the Day</em> - Add a Genre</h4><br><br><br><br><br><br>
+
+{{wtf.quick_form(genre_form)}}
+
+</div>
+</div>
+</div>
+
+{% endblock%}
