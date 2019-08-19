@@ -15,7 +15,7 @@
 * Clone the application using git clone(this copies the app onto your device). In terminal:
 
           $ git clone 
-          $ cd blogpost
+          
 
 * Creating the virtual environment
 
