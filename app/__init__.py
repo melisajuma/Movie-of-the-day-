@@ -1,8 +1,9 @@
 import os
 from flask import Flask
+from flask_bootstrap import Bootstrap
+from config import *
+from flask_sqlalchemy import SQLAlchemy
 
-from flask_login import LoginManager
-from flask_mail import Mail, Message
 
 
 db=SQLAlchemy()
