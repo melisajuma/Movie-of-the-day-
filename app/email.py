@@ -43,7 +43,7 @@ def recommendation(subject, template, to, **kwargs):
 
     # convert genre_ids list into genre_names list
 
-    sender_email = 'munenecyp@gmail.com'
+    sender_email = 'Melisaakinyi95@gmail.com'
     email = Message(subject, sender=sender_email, recipients=[to])
     email.body = render_template(template + ".txt", **kwargs)
     email.html = render_template(template + ".html", **kwargs)
