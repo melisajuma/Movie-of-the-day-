@@ -1,0 +1,34 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<div class="container">
+<div class="row">
+<!-- displaying  Username-->
+  <div class="col-md-4 w3-center">
+    <h4>Movie of the Day</h4>
+    <h5> <em>{{user.username| capitalize}}'s Subscriptions</em> </h5>
+    <br>
+    <a href="{{url_for('main.new_genre',uname=current_user.username)}}" class="w3-black w3-button w3-round"><strong>+</strong> a genre</a>
+  </div>
+
+  <!--Display subscriptions-->
+  <div class="w3-row w3-margin">
+  <ul class="w3-ul w3-border w3-col w3-hoverable w3-half w3-left">
+    <li class="w3-black w3-center">Available Genres</li>
+   {%for genre in genres%}
+    <li class="w3-text-black">{{genre | capitalize}}</li>
+    {%endfor%}
+  </ul>
+
+    <ul class="w3-ul w3-border w3-hoverable w3-half w3-right">
+    <li class="w3-black w3-center">My Genres</li>
+        {%for genre in mygenres%}
+    <li class="w3-text-black">{{genre.name | capitalize}}</li>
+    {%endfor%}
+  </ul>
+    </ul>
+    </div>
+
+</div>
+</div>
+{% endblock %}

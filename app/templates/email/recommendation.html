@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Based on your chosen genres, we recommend that you watch } today.
+    {% if random_movie.video%}
+    The YouTube link to it is at https://youtube.com/watch?v={{random_movie.trailer}}
+    {% else%}
+    Unfortunately, the link to the Youtube Trailer is not currently available
+    {%endif%}
+</p>
+
+</body>
+</html>
