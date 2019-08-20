@@ -16,7 +16,7 @@ This is a web application that allows users to view highly reviewed movies
 ### Cloning and running
 * Clone the application using git clone(this copies the app onto your device). In terminal:
 
-          $ git clone 
+          $ git clone https://github.com/melisajuma/Movie-of-the-day-
           
 
 * Creating the virtual environment
