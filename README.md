@@ -1,8 +1,8 @@
 # MOVIE OF THE DAY
 
 ## Description
-#### This is a web application that allows users to view highly reviewed movies
-#### By **elvisbkt & melisajuma**
+This is a web application that allows users to view highly reviewed movies
+#### By **elvisbkt & melisaJUma**
 
 
 ## Setup/Installation Requirements
