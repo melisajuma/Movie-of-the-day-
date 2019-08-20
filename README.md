@@ -44,7 +44,8 @@ This is a web application that allows users to view highly reviewed movies
 
 ## Support and contact details
 For any questions, troubleshooting or contributions,  find me on:
-* Email: elvisbkt@gmail.com, melisajuma@gmail.com
-### License
+* Email: elvisbkt@gmail.com, melisaakinyi95@gmail.com
+
+## License
 MIT License
 Copyright (c) {2019} 
